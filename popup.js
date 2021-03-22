@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded', () => {
         clearTimeout(timeout);
         
         if (stats) {
-            displayTextDiv.innerHTML = `You read\n${stats.words}`;
+            displayTextDiv.innerHTML = `You read\n${stats.words} words!`;
         } else {
             displayTextDiv.innerHTML = 'highlight text then push read';
         }
